@@ -544,7 +544,7 @@ Phaser.Scene.prototype.seedSpread = function () {
     oceanBackground.setDisplaySize(this.cameras.main.width, this.cameras.main.height);
 
     // Add the eagle at the top of the screen
-    const eagle = this.add.image(-50, 50, 'eagle').setScale(2.5); // Starts just off-screen to the left
+    const eagle = this.add.image(-50, 50, 'Eagle').setScale(2.5); // Starts just off-screen to the left
 
     // Animate the eagle flying across the screen
     const eagleTween = this.tweens.add({
